@@ -7,6 +7,7 @@
     background-color: black;
     padding: 10px 30px;
     border-radius: 10px;
+    border: none;
 }
 
 .carousel-item p{
@@ -23,7 +24,7 @@
 }
 
 .carousel-indicators .active{
-    background-image: linear-gradient(to right, orange, yellow);
+    background-image: linear-gradient(to right, rgb(255, 217, 0), orange);
     width: 35px;
     border-radius: 2em/5em;
     transition: .3s;
@@ -53,4 +54,42 @@
 
 .card-footer h5{
     padding-bottom: 5%;
+}
+
+.bar{
+    width: 100px;
+    height: 8px;
+    background-image: linear-gradient(to right, rgb(255, 217, 0), orange);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.bottom{
+    width: 100%;
+}
+
+.items{
+    box-shadow: 1px 1px 20px rgba(128, 128, 128, 0.3);
+    padding: 20px;
+}
+
+.items img{
+    width: 60%;
+}
+
+.card{
+    border: none;
+    box-shadow: 1px 1px 20px rgba(128, 128, 128, 0.3);
+}
+
+.bottom-text{
+    padding-top: 30px;
+}
+
+.rs1{
+    border-radius: 0px 30px 0px 30px;
+}
+
+.rs2{
+    border-radius:30px 0px 30px 0px;
 }
