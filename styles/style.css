@@ -27,3 +27,29 @@
     width: 35px;
     border-radius: 2em/5em;
 }
+
+.see-all{
+    color: orange;
+    font-weight: 500;
+    font-size: x-large;    
+}
+
+.headings{
+    margin-bottom: 20px;
+}
+
+.card img{
+    width: 70%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.card-footer{
+    border: none;
+    background-color: transparent;
+    padding-bottom: 17%;
+}
+
+.card-footer h5{
+    padding-bottom: 5%;
+}
